@@ -1,2 +1,36 @@
-# Student-Management-System
-This is a beginner-friendly project demonstrating Python web frameworks: - **Django**: Frontend web pages - **FastAPI**: Backend CRUD API for students - **Flask**: Microservice for analytics
+# Student Management System (Django + Flask + FastAPI)
+
+## Overview
+This is a beginner-friendly project demonstrating Python web frameworks:
+- **Django**: Frontend web pages
+- **FastAPI**: Backend CRUD API for students
+- **Flask**: Microservice for analytics
+
+## Setup & Execution
+
+1. **Install dependencies**
+```
+pip install -r requirements.txt
+```
+
+2. **Run FastAPI**
+```
+cd fastapi_api
+uvicorn main:app --reload
+```
+
+3. **Run Flask**
+```
+cd flask_service
+python app.py
+```
+
+4. **Run Django**
+```
+cd django_app
+python manage.py runserver
+```
+
+5. **Access**
+- Django frontend: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- FastAPI docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)

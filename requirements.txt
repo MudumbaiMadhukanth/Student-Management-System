@@ -1,0 +1,5 @@
+Django==4.3
+requests==2.31
+fastapi==0.111
+uvicorn==0.25
+Flask==3.0
