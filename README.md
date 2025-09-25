@@ -30,7 +30,3 @@ python app.py
 cd django_app
 python manage.py runserver
 ```
-
-5. **Access**
-- Django frontend: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- FastAPI docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
